@@ -17,7 +17,7 @@ let fetchData = cb => {
   }, 500);
 };
 
-export default class Exercise extends React.Component {
+export default class Exercise1 extends React.Component {
 
   constructor(props) {
     super(props);
@@ -41,8 +41,6 @@ export default class Exercise extends React.Component {
     if (!this.state.loaded) {
       return <div>Loading</div>;
     }
-
-    console.log(this.state);
 
     let title = this.state.data.title;
     let items = this.state.data.data;
