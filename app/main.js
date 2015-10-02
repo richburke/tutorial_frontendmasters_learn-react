@@ -1,8 +1,8 @@
 
 import React from 'react';
-import HelloWorld from './helloworld';
+import Exercise from './exercise';
 
 React.render(
-  <HelloWorld />,
+  <Exercise />,
   document.body
 );
