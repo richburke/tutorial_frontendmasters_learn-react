@@ -63,7 +63,7 @@ export default class Exercise2 extends React.Component {
  */
 let emailType = (props, propName, componentName) => {
   warning(
-    validateEmail(props.email),
+    validateEmail(props[propName]),
     `Invalid ${propName} for ${componentName}.`
   );
 }
