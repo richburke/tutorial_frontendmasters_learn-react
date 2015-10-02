@@ -1,0 +1,8 @@
+.DS_Store
+*.DS_Store
+*.idea
+bower_components/*
+node_modules/*
+build/*
+app/assets/.DS_Store
+
