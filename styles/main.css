@@ -1,0 +1,36 @@
+
+.ContentToggle {
+  font-family: Verdana;
+}
+
+.ContentToggle__Summary {
+  cursor: pointer;
+  background-color: #8ecccc;
+  border-bottom: solid 1px transparent;
+  margin-bottom: 0;
+}
+
+.ContentToggle__Summary:before {
+  display: inline-block;
+  width: 1em;
+  content: '▸';
+}
+
+.ContentToggle__Summary--open {
+  cursor: pointer;
+  background-color: #8ecccc;
+  border-bottom: solid 1px transparent;
+  margin-bottom: 0;
+}
+
+.ContentToggle__Summary--open:before {
+  display: inline-block;
+  width: 1em;
+  content: '▾';
+}
+
+.ContentToggle__Details {
+  margin-top: 0;
+  padding-left: 14px;
+  background-color: #ddf0f0;
+}
